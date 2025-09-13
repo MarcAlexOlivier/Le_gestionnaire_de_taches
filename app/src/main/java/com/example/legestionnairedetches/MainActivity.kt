@@ -30,8 +30,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             LeGestionnaireDeTâchesTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
-                    GestionnaireTacheInterface(
-                    )
+                    GestionnaireTacheInterface()
                 }
             }
         }
